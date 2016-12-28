@@ -6,14 +6,14 @@
 
 # Basic informations. To change if you want to setup your own Bot.
 __program__ = "DLBot"
-__version__ = "0.0.3a"
+__version__ = "0.1.6a"
 
 ## Libaries import
 
 # Testing Initial import
 import sys
 try:
-    assert sys.version_info >= (3, 5)
+    assert sys.version_info >= (3, 4)
     from discord.ext import commands
     import discord
 except ImportError:
@@ -22,7 +22,7 @@ except ImportError:
           "and do ALL the steps in order.\n")
     sys.exit()
 except AssertionError:
-    print("Red needs Python 3.5 or superior.\n"
+    print("DLBot needs Python 3.4 or superior.\n"
           "Consult the guide for your operating system "
           "and do ALL the steps in order.\n")
     sys.exit()
@@ -41,23 +41,66 @@ import random
 import feedparser
 import re
 
+import setup
+
 
 ##Variables setup
-
+#BASE STRING : change it if you want, I don't care
 base = ".."
 
+#Message sent when the user call for help
 helptext = """
 Here are my commands : 
-    -help   : Show this text
+    -help   : Show this text. Use help aCommand to get the command definition
     -hello  : Hi !
     -xdy    : Roll some dices ! (ex : 2d100) It will give you x answers between 0 and y
     -galnet : Will give you random GalNet feed unless you specify an index (galnet [i])
     -wiki   : Will give you a wikipedia definition
     -pict   : NOT YET IMPLEMENTED
-    -video  : NOT YET IMPLEMENTED
+    -yt     : Put some videos in your channel !
+    -quote  : When funny things are said, you must save them !
 
 Some commands are not detailed. Good luck finding them !
 """
+#List of my functions
+functions=['help', 'hello', 'xdy', 'galnet', 'wiki', 'pict', 'yt', 'quote']
+
+#WTF IS THAT ? That's the documentation dictionary ! 
+helpdict = dict(help=base+"""help [command|all] : 
+Why are you wanting help on help anyway ?
+    command : function handled by the bot
+    all     : if you wan all the documentation"""
+                , hello=base+"""hello
+Hello @DLBot : 
+It will say Hello. That's all !"""
+                , xdy="""{x}d{y} : 
+Used in roleplay games. Like rolling 1 dice containing 20 faces will be 1d20
+    x : number between 1 and 10
+    y : number greater than 1"""
+                , galnet=base+"""galnet [index] : 
+Used to get RSS feed from GalNet forums. Use the index to see a specific news or let it be random
+    index : number of the news wanted"""
+                , wiki=base+"""wiki [word] : 
+When you are too lazy to surf on the internet by yourself."""
+                , pict="Kill me please... Don't you read the help ? Oh..."
+                , yt = base+"""yt [-s|-p] [link|index] [title] : 
+Youtube function to have some videos on the channel !
+    -s    : Option to save the link (need the link in the command line)
+    -p    : Will play the selected video
+    link  : link to a YouTube video
+    index : index of a saved link
+    title : title of the saved link (need the -s option)"""
+                , quote=base+"""quote [s] [quote|index] : 
+Used to quote your friends when they are funny or to remember a funny quote
+    -s : Used to save a quote (need the quote in the command line)
+    quote : quote that will be saved
+    index : index of a saved quote""")
+
+global datadir
+datadir = os.path.dirname("./data/")
+if not os.path.exists(datadir):
+    os.makedirs(datadir)
+    
 
 ##Program
 
@@ -69,125 +112,10 @@ def isSetUp(file):
     except:
         return False
 
-# void setup(string language) : sets the bot up at first start. Is only meant to be invoked by setup_common().
-def setup(language,pointer):
-    if language=="en":
-        print("Hello and welcome to DLBot setup assistant. I'll help you setting everything up.")
-        print("We need to activate or not some of the functions.")
-        quizz=input("Do you want me to enable everything ?").lower()
-        if quizz=="y":
-            setupArray=["0"]
-            setupArray.append("111111")
-            print("Everything enabled.")
-        elif quizz=="n":
-        ##Manual Setup
-            print("Manual setup.")
-        
-            # This stands for the language
-            setupArray=["0"]
-            
-            # Asking the user for each bot function
-            quizz=input("Enable videos ? (Y/N) : ").lower()
-            if quizz=="y":
-                setupArray.append("1")
-                print("Quizz     [ON]")
-            elif quizz=="n":
-                setupArray.append("0")
-                print("Quizz     [OFF]")
-                
-            pics=input("Enable pictures ? (Y/N) : ").lower()
-            if pics=="y":
-                setupArray.append("1")
-                print("Pictures  [ON]")
-            elif pics=="n":
-                setupArray.append("0")
-                print("Pictures  [OFF]")
-                
-            quotes=input("Enable quotes ? (Y/N) : ").lower()
-            if quotes=="y":
-                setupArray.append("1")
-                print("Quotes    [ON]")
-            elif quotes=="n":
-                setupArray.append("0")
-                print("Quotes    [OFF]")
-                
-            wiki=input("Enable wiki ? (Y/N) : ").lower()
-            if wiki=="y":
-                setupArray.append("1")
-                print("Wiki      [ON]")
-            elif wiki=="n":
-                setupArray.append("0")
-                print("Wiki      [OFF]")
-                
-            slog=input("Enable super logging ? (Y/N) : ").lower()
-            if slog=="y":
-                setupArray.append("1")
-                print("S Log     [ON]")
-            elif slog=="n":
-                setupArray.append("0")
-                print("S Log     [OFF]")
-            
-            # Add the private joke bit - private jokes function can only be activated manually
-            setupArray.append("0")
-            
-        else:
-            print("An error occured (bad answer). Please delete setup.txt and restart the bot.\nShutting down...")
-            quit()
-        
-        
-        # Write everything in setup.txt
-        for i in range(len(setupArray)):
-            try:
-                pointer.write(setupArray[i])
-            except:
-                print("An error occured while writing the setup. Current folder might me read-only. Shutting down.")
-                pointer.close()
-                quit()
-        
-        print("The bot is correctly set up! You can now start using it!")
-        pointer.close()
-        return setupArray
-    
-    elif language=="fr":
-        print("Rappelle moi de faire le setup en français aussi.") #TODO: french setup
-        setup("en", pointer)
 
-# void setup_common() : starts the setup by asking the language. Redirects to setup() when language is correctly defined.
-def setup_common():
-    # bool languageOK: defines if the language has been correctly set up
-    languageOK=False
-    print("setup.txt not found. Creating and entering the setup.")
-    try:
-        setupFile=open("setup.txt","w")
-        print("File created successfully! Please follow the instructions:")
-    except:
-        print("An error occured. Current folder might me read-only. Shutting down.")
-        quit()
-    while languageOK==False:
-        language=input("Language (FR/EN): ").lower()
-        if language=="fr":
-            print("Langue sélectionné : Français.")
-            languageOK=True
-            setup("fr",setupFile)
-        elif language=="en":
-            print("Language selected : English.")
-            languageOK=True
-            setup("en",setupFile)
-        else:
-            print("Invalid language.")
-            languageOK=False
-            
-def start():
-    print("setup.txt found. Setup loaded successfully. To reinitialize the setup, simply delete setup.txt.")
-    setupFile=open("setup.txt","r")
-    setupRead=setupFile.readline()
-    setupArray=list(setupRead)
-    setupFile.close()
-    print(setupArray)
-    return setupArray
-    
+
 def readToken():
-    tokenFile=open("token.txt", "r")
+    tokenFile=open(datadir+"/token.txt", "r")
     token = tokenFile.readline()
     tokenFile.close()
     return token
@@ -195,7 +123,7 @@ def readToken():
 def createToken():
     token=input("Please enter you bot's token : ")
     try:
-        tokenFile=open("token.txt", "w")
+        tokenFile=open(datadir+"/token.txt", "w")
         tokenFile.write(token)
         tokenFile.close()
     except:
@@ -244,14 +172,59 @@ def rssFeed(index=None):
         return entries[index]
     except:
         return None
+        
+def ytSave(link, title):
+    ytFile = open (datadir+"/yt.txt", "a")
+    ytFile.write(title + " " + link + "\n")
+    print("Saved link "+ link)
+    ytFile.close()
+    return "Saved link n°"+ str(fileSize(datadir+"/yt.txt")) 
+    
+def ytRead(pos):
+    ytFile = open(datadir+"/yt.txt" , "r")
+    ytList = ytFile.readlines()[int(pos)-1].strip("\n")
+    #print (ytList)
+    ytFile.close()
+    return ytList
+    
+def ytPlay(target):
+    if target.isdigit():
+        print('Playing video from list : ' + target + ' +link')
+        msg = 'Playing video from list : ' + target + '\n'
+        ytlink = ytRead(target)
+        msg += ytlink.split(' ')[1]
+        print(ytlink.split(' ')[1])
+    else:
+        msg = 'Playing video from YouTubeApi : ' + target
+        print('Playing video from YouTubeApi : ' + target)
+    return msg
+        
+def qtSave(quote):
+    qtFile = open (datadir+"/quote.txt", "a")
+    qtFile.write(quote + "\n")
+    print("Saved quote "+ quote)
+    qtFile.close()
+    return "Saved quote n°"+ str(fileSize(datadir+"/quote.txt")) + " : " + quote
+
+def qtRead(index):
+    qtFile = open(datadir+"/quote.txt" , "r")
+    qtList = qtFile.readlines()[int(index)-1].strip("\n")
+    qtFile.close()
+    return qtList
+    
+def fileSize(filename):
+    file = open(filename, 'r')
+    num = len(file.readlines())
+    file.close()
+    return num
     
 ## Starting the bot!
-if isSetUp("setup.txt")==False:
-    setup_common()
-    setupArray=start()
+if isSetUp(datadir+"/setup.txt")==False:
+    setup.setup_common()
+    setupArray=setup.start()
 else:
-    setupArray=start()
-if isSetUp("token.txt")==False:
+    setupArray=setup.start()
+if isSetUp(datadir+"/token.txt")==False:
     createToken()
 
     
@@ -302,12 +275,19 @@ def on_message(message):
     ## Normal functions
     #TODO: quizz, pic, quote
     
-    # Basically a test function
+    ## A test function
     if message.content.startswith(base+'hello') or ("Hello" in message.content and message.mentions[0].id==client.user.id):
         hellos=["Hello", "Hi", "Hello CMDR", "Greetings", "Welcome", "Oh ! Hi"]
         msg = hellos[random.randrange(len(hellos))] + ' {0.author.mention} !'.format(message)
         yield from client.send_message(message.channel, msg)
         logMessage(message)
+        
+    ## Another test function
+    if message.content.startswith(base+'version'):
+        msg = __program__ + ' is version v' + __version__ + '. '
+        yield from client.send_message(message.channel, msg)
+        logMessage(message)
+    
 
     # Still indev
     if message.content.startswith('!pic'):
@@ -325,7 +305,7 @@ def on_message(message):
         yield from client.send_message(message.channel, msg)
         logMessage(message)
             
-    # !wiki
+    ## Wiki
     if message.content.startswith('!wiki') and setupArray[0]=='0':
         messageArray = message.content.split()
         messageArray.remove(messageArray[0])
@@ -341,14 +321,27 @@ def on_message(message):
         yield from client.send_message(message.channel, msg)
         logMessage(message)
     
-    # !help
+    ## Help Function
     if message.content.startswith(base+'help') or ("elp" in message.content.lower() and message.mentions[0].id==client.user.id):
         msg = "{0.author.mention}".format(message) + " Hey ! I'm " + client.user.name + " ! " + helptext
+        
+        args = message.split(" ")
+        try:
+            if args[1] in functions:
+                msg = helpdict[args[1]]
+            elif args[1]=='all':
+                msg = 'All the definitions : \n-------------------'
+                for defs in functions:
+                    msg += helpdict[defs]+'\n-------------------'
+            else:
+                msg = "WTF is this function ?\n"+str(functions)+" that's all I have !"
+        except IndexError:
+            msg = "{0.author.mention}".format(message) + " Hey ! I'm " + client.user.name + " ! " + helptext
         yield from client.send_message(message.channel, msg)
         logMessage(message)
     
-    ## Other functions
-    # RSS feed
+    # Other functions
+    ## RSS feed
     if message.content.startswith(base+'galnet'):
         var = message.content.split(" ")
         try :
@@ -365,7 +358,7 @@ def on_message(message):
         yield from client.send_message(message.channel, msg)
         logMessage(message)
     
-    # roll 
+    ## Roll 
     if list(message.content)[0].isdigit() and list(message.content)[1] == "d":
         txt = message.content
         var = txt.split("d")
@@ -374,6 +367,79 @@ def on_message(message):
             msg += "\n It's a "+str(random.randrange(int(var[1]))+1)+" !"
         yield from client.send_message(message.channel, msg)
         logMessage(message)
+     
+    ## Quote Function
+    if message.content.startswith(base+'quote'):
+        mess = message.content.strip()
+        args = mess.split()
+        #Wanna read a quote ?
+        if len(args)>=2:
+            if args[1].isdigit():
+                msg = 'Reading quote...\n'
+                try:
+                    msg += qtRead(args[1]) + "\n"
+                except:
+                    msg += 'No quote found. Maybe the index was too big'
+            #Or better ! A random quote !
+            elif args[1] == '-r':
+                msg = qtRead(random.randrange(fileSize(datadir+'/quote.txt')))
+            #Or wanna save one ?
+            else:
+                print('Saving quote')
+                msg = qtSave(mess.strip(base + 'quote '))
+        else:
+            print('No index specified')
+            msg = qtRead(random.randrange(fileSize(datadir+'/quote.txt')))
+        yield from client.send_message(message.channel, msg)
+        logMessage(message)
+       
+    ## Youtube Function
+    if message.content.startswith(base+'yt'):
+        mess = message.content.strip()
+        args = mess.split(" ")
+        #If the function have a link
+        if 'youtu' in mess:
+            #Wanna save ?
+            if args[1] == '-s':
+                try:
+                    msg = ytSave(args[2], args[3])
+                except:
+                    msg = ytSave(args[2], "NoTitle")
+            #Wanna play ?
+            elif args[1] == '-p':
+                msg = "Playing video " + args[2] + "\n"
+                msg += ytPlay(args[2])
+            #Or just want some informations about it ?
+            else:
+                msg =  "Finding vidéo " + args[1] + " Oh wait... I can't yet... Sorry !"
+        #No link ?
+        else:
+            #Want to search in the file ?
+            if len(args) >= 2:
+                if args[1].isdigit():
+                    try:
+                        msg = ytRead(args[1])
+                    except:
+                        msg = "No link found"
+                # Maybe search for an onlie video ?
+                elif args[1].isalnum():
+                    msg= "Research video online : " + args[1] + " But I can't do that yet... Sorry ! "
+                
+                #Hum... Play from file ?
+                elif args[1] == '-p' and args[2].isdigit():
+                    msg = "Playing video " + args[2] + '\n'
+                    msg += ytPlay(args[2])
+                #"Something bad happend... Something very bad...
+                else:
+                    print("error")
+                    msg = "Something happend. I'm sure something happend. But dunno what. Sorry !"
+            else:
+                print('No index specified')
+                msg = ytRead(random.randrange(fileSize(datadir+'/yt.txt')))
+        yield from client.send_message(message.channel, msg)
+        logMessage(message)
+        
+        
     
     logsFile.close()
         

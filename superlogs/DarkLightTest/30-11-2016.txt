@@ -1,0 +1,12 @@
+15:24:41 [Foxlider@DarkLightTest.general] : oh le con
+15:41:1 [Foxlider@DarkLightTest.general] : bon... test
+15:41:6 [Foxlider@DarkLightTest.general] : 1d10
+15:41:12 [Foxlider@DarkLightTest.general] : lel
+15:41:38 [Foxlider@DarkLightTest.general] : 1d10
+15:41:39 [DLBot@DarkLightTest.general] : <@140195053241892864> rolled 1d10
+ It's a 4 !
+15:41:44 [Foxlider@DarkLightTest.general] : 2d20
+15:41:44 [DLBot@DarkLightTest.general] : <@140195053241892864> rolled 2d20
+ It's a 19 !
+ It's a 7 !
+15:41:52 [Foxlider@DarkLightTest.general] : Yay ça c'est de retour

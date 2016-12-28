@@ -1,0 +1,63 @@
+12:55:10 [K1nggor@DarkLightServer.general] : ..galnet
+12:55:13 [DLBot@DarkLightServer.general] : News from GalNet : #Galactic News: Starport Status Update#
+```html
+This report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.
+The following starports are currently closed:
+Akiyama Hub, Shorodo
+Baudin Landing, Lyncis Sector MC-V b2-1
+Beltrami's Claim, Wolf 1509
+Bondarek Orbital, Munfayl
+Chargaff Port, 20 Ophiuchi
+Dogmaa, Wolfberg
+Finney Dock, Eleu
+Gurragchaa Gateway, Warkushanui
+Haack Gateway, Halbangaay
+Irens Dock, Manite
+Korolyov Hub, Arawere
+Liwei Gateway, 63 G. Capricorni
+Maia Point, Maia
+Obsidian Orbital, Maia
+Rutan Terminal, Scirtoq
+Solovyev Port, HIP 8865
+Tall Enterprise, Ngalia
+Tarelkin Dock, LP 462-19
+von Bellingshausen Port, Almar
+Wright City, Elli
+The following starports continue to experience technical issues:
+Alexander Freeport, HIP 18843
+Bloch Vision, Loperada
+Carter Port, Rhea
+Cayley Landing, Atroan
+Donaldson Retreat, Rajuar
+Frobac's Hope, Difu
+Gilmour Orbiter, Tau Ceti
+Kooi Gateway, G 190-28
+Li Qing Jao, Sol
+Manakov Survey, Aeduci
+Noctrach-Ihazevich Research Facility, Pleiades Sector AB-W b2-4
+Panshin Port, Heikegani
+Roberts Port, CD-52 9732
+Spring Gateway, LHS 215
+Trevithick Dock, LHS 3447
+Meanwhile, the following starports are on the brink of closure:
+Vela Port, Amarak```
+12:55:23 [kingofzeloose@DarkLightServer.general] : pas bien faire joujou avec discord en cours 😛
+12:55:32 [K1nggor@DarkLightServer.general] : dit-il 😛
+12:55:54 [Foxlider@DarkLightServer.general] : ..galnet
+12:55:56 [DLBot@DarkLightServer.general] : News from GalNet : #Powerplay: Incoming Update#
+```html
+At 7.00 am tomorrow morning (GMT), the monitoring of powers' activities will go offline for a short period while the latest data is assembled. Pilots who operate for one of the powers should deliver any cargo or vouchers before this time to ensure their activities are registered.```
+12:56:20 [Foxlider@DarkLightServer.general] : 2d10
+12:56:22 [DLBot@DarkLightServer.general] : <@140195053241892864> rolled 2d10
+ It's a 6 !
+ It's a 3 !
+12:56:36 [kingofzeloose@DarkLightServer.general] : 2d20
+12:56:36 [DLBot@DarkLightServer.general] : <@!217366201603457024> rolled 2d20
+ It's a 5 !
+ It's a 3 !
+12:57:10 [Foxlider@DarkLightServer.general] : Hello <@248021064817442816>
+12:57:19 [DLBot@DarkLightServer.general] : Oh ! Hi <@140195053241892864> !
+12:57:29 [Foxlider@DarkLightServer.general] : Hello <@248021064817442816>
+12:57:31 [DLBot@DarkLightServer.general] : Welcome <@140195053241892864> !
+12:57:47 [kingofzeloose@DarkLightServer.general] : Hello <@140195053241892864>, you're the Gran MASTER
+12:58:50 [Foxlider@DarkLightServer.general] : I know, <@!217366201603457024>

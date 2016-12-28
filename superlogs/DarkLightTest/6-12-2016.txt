@@ -1,0 +1,234 @@
+8:8:35 [Foxlider@DarkLightTest.general] : ..help
+8:43:25 [Foxlider@DarkLightTest.general] : Hello <@248021064817442816>
+8:44:14 [Foxlider@DarkLightTest.general] : Hello <@248021064817442816>
+8:44:28 [Foxlider@DarkLightTest.general] : ..hello
+8:44:56 [Foxlider@DarkLightTest.general] : ..hello
+8:46:31 [Foxlider@DarkLightTest.general] : ..hello
+8:50:23 [Foxlider@DarkLightTest.general] : ..hello
+8:51:36 [Foxlider@DarkLightTest.general] : Hello <@248021064817442816>
+8:51:37 [DLBot@DarkLightTest.general] : Hello CMDR <@140195053241892864> !
+8:51:41 [Foxlider@DarkLightTest.general] : :D
+8:51:44 [Foxlider@DarkLightTest.general] : ..hello
+8:51:45 [DLBot@DarkLightTest.general] : Welcome <@140195053241892864> !
+9:29:15 [Foxlider@DarkLightTest.general] : ..galnet
+9:29:16 [DLBot@DarkLightTest.general] : No RSS feed loaded. Maybe change the index
+9:30:56 [Foxlider@DarkLightTest.general] : ..galnet
+9:30:56 [DLBot@DarkLightTest.general] : News from GalNet : Community Goal: People's Tutumu Confederacy Appeal
+As the end of the galactic year draws near and people throughout the galaxy start preparing for their end-of-year celebrations, the People's Tutumu Confederacy has announced a special seasonal event.<br />
+A spokesperson for the organisation released a brief statement.<br />
+"We have placed an open order for gold, pyrophyllite, and mineral oil, and in keeping with the spirit of the season we are offering generous premiums for these items. Additionally, every pilot who brings us these goods will be automatically entered into a prize draw, giving them the opportunity to win a range of fantastic prizes."<br />
+"The more you contribute, the better your chance of winning!"<br />
+The campaign will run from the 1st to the 16th of December 3302. If the final target is met earlier than planned, the campaign will end immediately.
+9:31:51 [Foxlider@DarkLightTest.general] : ..galnet
+9:31:52 [DLBot@DarkLightTest.general] : News from GalNet : Galactic News: Retail Appeal Ends
+```html
+A spokesperson for Tchernobog Free has announced that its appeal for consumer goods has been enthusiastically received by the galactic community, resulting in a huge quantity of deliveries to Vancouver Ring, the organisation's base of operations.<br />
+The support of the galactic community allowed Tchernobog Free to keep up with the incredibly high demand ushered in by last Friday's competitive one-day deals.<br />
+In a statement, the spokesperson said:<br />
+"I'd all but given up. I just couldn't see how we'd get the goods in time. But then a ship docked at Vancouver Ring, groaning under the weight of its cargo. And then another, and another."<br />
+"To the pilots who came to our aid, I just want to say – you saved my life!"<br />
+Pilots who contributed to the initiative can now collect their rewards from Vancouver Ring in the Tchernobog system.```
+9:36:21 [Foxlider@DarkLightTest.general] : ..galnet
+9:37:43 [Foxlider@DarkLightTest.general] : ..galnet
+9:37:44 [DLBot@DarkLightTest.general] : News from GalNet : Galactic News: Retail Appeal Ends
+```html
+A spokesperson for Tchernobog Free has announced that its appeal for consumer goods has been enthusiastically received by the galactic community, resulting in a huge quantity of deliveries to Vancouver Ring, the organisation's base of operations.<br />
+The support of the galactic community allowed Tchernobog Free to keep up with the incredibly high demand ushered in by last Friday's competitive one-day deals.<br />
+In a statement, the spokesperson said:<br />
+"I'd all but given up. I just couldn't see how we'd get the goods in time. But then a ship docked at Vancouver Ring, groaning under the weight of its cargo. And then another, and another."<br />
+"To the pilots who came to our aid, I just want to say – you saved my life!"<br />
+Pilots who contributed to the initiative can now collect their rewards from Vancouver Ring in the Tchernobog system.```
+9:42:17 [Foxlider@DarkLightTest.general] : ..galnet
+9:44:1 [Foxlider@DarkLightTest.general] : ..galnet
+9:45:2 [Foxlider@DarkLightTest.general] : ..galnet
+9:45:3 [DLBot@DarkLightTest.general] : News from GalNet : #Community Goal: People's Tutumu Confederacy Appeal#
+```html
+As the end of the galactic year draws near and people throughout the galaxy start preparing for their end-of-year celebrations, the People's Tutumu Confederacy has announced a special seasonal event.
+A spokesperson for the organisation released a brief statement.
+"We have placed an open order for gold, pyrophyllite, and mineral oil, and in keeping with the spirit of the season we are offering generous premiums for these items. Additionally, every pilot who brings us these goods will be automatically entered into a prize draw, giving them the opportunity to win a range of fantastic prizes."
+"The more you contribute, the better your chance of winning!"
+The campaign will run from the 1st to the 16th of December 3302. If the final target is met earlier than planned, the campaign will end immediately.```
+9:48:46 [Foxlider@DarkLightTest.general] : ..galnet
+9:49:8 [Foxlider@DarkLightTest.general] : ..galnet
+9:49:50 [Foxlider@DarkLightTest.general] : ..galnet
+9:50:17 [Foxlider@DarkLightTest.general] : ..galnet
+9:50:41 [Foxlider@DarkLightTest.general] : ..galnet 2
+9:50:41 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Starport Status Update#
+```html
+This report presents the latest data on starports experiencing technical issues as a result of Unknown-Artefact related interference.
+The following starports are currently closed:
+Akiyama Hub, Shorodo
+Baudin Landing, Lyncis Sector MC-V b2-1
+Beltrami's Claim, Wolf 1509
+Bondarek Orbital, Munfayl
+Chargaff Port, 20 Ophiuchi
+Dogmaa, Wolfberg
+Finney Dock, Eleu
+Gurragchaa Gateway, Warkushanui
+Haack Gateway, Halbangaay
+Irens Dock, Manite
+Korolyov Hub, Arawere
+Liwei Gateway, 63 G. Capricorni
+Maia Point, Maia
+Obsidian Orbital, Maia
+Rutan Terminal, Scirtoq
+Solovyev Port, HIP 8865
+Tall Enterprise, Ngalia
+Tarelkin Dock, LP 462-19
+von Bellingshausen Port, Almar
+Wright City, Elli
+The following starports continue to experience technical issues:
+Alexander Freeport, HIP 18843
+Bloch Vision, Loperada
+Carter Port, Rhea
+Cayley Landing, Atroan
+Donaldson Retreat, Rajuar
+Frobac's Hope, Difu
+Gilmour Orbiter, Tau Ceti
+Kooi Gateway, G 190-28
+Li Qing Jao, Sol
+Manakov Survey, Aeduci
+Noctrach-Ihazevich Research Facility, Pleiades Sector AB-W b2-4
+Panshin Port, Heikegani
+Roberts Port, CD-52 9732
+Spring Gateway, LHS 215
+Trevithick Dock, LHS 3447
+Meanwhile, the following starports are on the brink of closure:
+Vela Port, Amarak```
+9:51:46 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:51:47 [DLBot@DarkLightTest.general] : News from GalNet : #Powerplay: Incoming Update#
+```html
+At 7.00 am tomorrow morning (GMT), the monitoring of powers' activities will go offline for a short period while the latest data is assembled. Pilots who operate for one of the powers should deliver any cargo or vouchers before this time to ensure their activities are registered.```
+9:52:1 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:52:1 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Ram Tah Laboratory Attacked#
+```html
+A few days ago, the research centre at Felice Dock in the Meene system was severely damaged in what has been described as 'an act of vandalism'. Authorities at the starport have confirmed that the attack left many of the facilities irreparably damaged.
+Readers will no doubt recall that Ram Tah's research project into the ruins of the Synuefe XR-H d11-102 system is based at Felice Dock.
+When asked about the delay in investigating the crime, system security forces said it was considered 'low priority', and that it was "probably the work of opportunists."
+Ram Tah released the following statement:
+"This is clearly an attempt to undermine my research into the Synuefe ruins. Since my investigations began, a number of agencies have made clear their desire to capitalise on the site for personal, political or military gain. The knowledge contained in the ruins does not belong to one individual or organisation – it belongs to everyone."
+"My research programme has relocated to Phoenix Base. Strict security protocols have been instated, and anyone approaching without invitation will be fired upon."
+Since this statement was made, the research facility at Phoenix Base has been operating in total radio silence.```
+9:52:46 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:53:3 [Foxlider@DarkLightTest.general] : ..galnet
+9:53:27 [Foxlider@DarkLightTest.general] : ..galnet
+9:53:27 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Ram Tah Laboratory Attacked#
+```html
+A few days ago, the research centre at Felice Dock in the Meene system was severely damaged in what has been described as 'an act of vandalism'. Authorities at the starport have confirmed that the attack left many of the facilities irreparably damaged.
+Readers will no doubt recall that Ram Tah's research project into the ruins of the Synuefe XR-H d11-102 system is based at Felice Dock.
+When asked about the delay in investigating the crime, system security forces said it was considered 'low priority', and that it was "probably the work of opportunists."
+Ram Tah released the following statement:
+"This is clearly an attempt to undermine my research into the Synuefe ruins. Since my investigations began, a number of agencies have made clear their desire to capitalise on the site for personal, political or military gain. The knowledge contained in the ruins does not belong to one individual or organisation – it belongs to everyone."
+"My research programme has relocated to Phoenix Base. Strict security protocols have been instated, and anyone approaching without invitation will be fired upon."
+Since this statement was made, the research facility at Phoenix Base has been operating in total radio silence.```
+9:53:33 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:53:33 [DLBot@DarkLightTest.general] : No RSS feed loaded. Maybe change the index
+9:54:10 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:54:11 [DLBot@DarkLightTest.general] : No RSS feed loaded. Maybe change the index
+9:55:5 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:55:6 [DLBot@DarkLightTest.general] : No RSS feed loaded. Maybe change the index
+9:55:35 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:55:36 [DLBot@DarkLightTest.general] : No RSS feed loaded. Maybe change the index
+9:56:7 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:56:8 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Amateurs Partially Decrypt Signal#
+```html
+A small group of EM-transmission technology enthusiasts in the Tionisla system claims to have partially decoded the encrypted message transmitted from the Tionisla Orbital Graveyard by an antique Cobra Mk III a few months ago.
+A spokesperson for the group, which calls itself The Hamsters, said:
+"So exciting! It was an EM frequency using phase modulation. Really quite clever. It contains a string of numbers, but we don't know what they mean, so we've decided to share it with the galactic community in the hope that someone might be able to decode it. The sequence is: 01 07 10 * 20 22 25 * 01 05 23 03 23 * 10 27 - 23 * 02 03 01 - 02 * 03 04 * 01 * 43 33 31 23 * 07 21 25 27."
+Unfortunately The Hamsters' broadcast abruptly stopped at this point, and only static has been received since. When asked about the sudden silence, authorities in Tionisla made the following statement:
+"We had no choice but to take them offline as they hadn't renewed their broadcasting licence. We will restore their broadcasting privileges once the appropriate charges have been paid."```
+9:56:25 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:57:53 [Foxlider@DarkLightTest.general] : ..galnet 1
+9:58:0 [Foxlider@DarkLightTest.general] : ..galnet
+9:58:0 [DLBot@DarkLightTest.general] : News from GalNet : #Community Goal: People's Tutumu Confederacy Appeal#
+```html
+As the end of the galactic year draws near and people throughout the galaxy start preparing for their end-of-year celebrations, the People's Tutumu Confederacy has announced a special seasonal event.
+A spokesperson for the organisation released a brief statement.
+"We have placed an open order for gold, pyrophyllite, and mineral oil, and in keeping with the spirit of the season we are offering generous premiums for these items. Additionally, every pilot who brings us these goods will be automatically entered into a prize draw, giving them the opportunity to win a range of fantastic prizes."
+"The more you contribute, the better your chance of winning!"
+The campaign will run from the 1st to the 16th of December 3302. If the final target is met earlier than planned, the campaign will end immediately.```
+9:58:8 [Foxlider@DarkLightTest.general] : ..galnet 0
+9:58:9 [DLBot@DarkLightTest.general] : News from GalNet : #Community Goal: People's Tutumu Confederacy Appeal#
+```html
+As the end of the galactic year draws near and people throughout the galaxy start preparing for their end-of-year celebrations, the People's Tutumu Confederacy has announced a special seasonal event.
+A spokesperson for the organisation released a brief statement.
+"We have placed an open order for gold, pyrophyllite, and mineral oil, and in keeping with the spirit of the season we are offering generous premiums for these items. Additionally, every pilot who brings us these goods will be automatically entered into a prize draw, giving them the opportunity to win a range of fantastic prizes."
+"The more you contribute, the better your chance of winning!"
+The campaign will run from the 1st to the 16th of December 3302. If the final target is met earlier than planned, the campaign will end immediately.```
+9:58:16 [Foxlider@DarkLightTest.general] : ..galnet 0
+9:58:16 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Amateurs Partially Decrypt Signal#
+```html
+A small group of EM-transmission technology enthusiasts in the Tionisla system claims to have partially decoded the encrypted message transmitted from the Tionisla Orbital Graveyard by an antique Cobra Mk III a few months ago.
+A spokesperson for the group, which calls itself The Hamsters, said:
+"So exciting! It was an EM frequency using phase modulation. Really quite clever. It contains a string of numbers, but we don't know what they mean, so we've decided to share it with the galactic community in the hope that someone might be able to decode it. The sequence is: 01 07 10 * 20 22 25 * 01 05 23 03 23 * 10 27 - 23 * 02 03 01 - 02 * 03 04 * 01 * 43 33 31 23 * 07 21 25 27."
+Unfortunately The Hamsters' broadcast abruptly stopped at this point, and only static has been received since. When asked about the sudden silence, authorities in Tionisla made the following statement:
+"We had no choice but to take them offline as they hadn't renewed their broadcasting licence. We will restore their broadcasting privileges once the appropriate charges have been paid."```
+9:59:16 [Foxlider@DarkLightTest.general] : ..galnet 0
+9:59:16 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Exploration Data Appeals Conclude#
+```html
+A spokesperson for The Children of Raxxla has announced that its appeal for exploration data has received the enthusiastic support of the galactic community, which delivered large quantities of astronomical data to Sereborv Terminal over the past two weeks. A competing initiative from the Federation proved less popular with the galactic community.
+In a brief statement, the spokesperson thanked those who had contributed to the initiative, and continued to say:
+"We know there are secrets buried in this data. We only hope we can unlock them in time."
+Pilots who contributed to the initiative are now free to collect their rewards from Sereborv Terminal in the HR 6421 system.```
+10:0:39 [Foxlider@DarkLightTest.general] : ..galnet 0
+10:0:39 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Ram Tah Laboratory Attacked#
+```html
+A few days ago, the research centre at Felice Dock in the Meene system was severely damaged in what has been described as 'an act of vandalism'. Authorities at the starport have confirmed that the attack left many of the facilities irreparably damaged.
+Readers will no doubt recall that Ram Tah's research project into the ruins of the Synuefe XR-H d11-102 system is based at Felice Dock.
+When asked about the delay in investigating the crime, system security forces said it was considered 'low priority', and that it was "probably the work of opportunists."
+Ram Tah released the following statement:
+"This is clearly an attempt to undermine my research into the Synuefe ruins. Since my investigations began, a number of agencies have made clear their desire to capitalise on the site for personal, political or military gain. The knowledge contained in the ruins does not belong to one individual or organisation – it belongs to everyone."
+"My research programme has relocated to Phoenix Base. Strict security protocols have been instated, and anyone approaching without invitation will be fired upon."
+Since this statement was made, the research facility at Phoenix Base has been operating in total radio silence.```
+10:1:54 [Foxlider@DarkLightTest.general] : ..galnet
+10:2:50 [Foxlider@DarkLightTest.general] : ..galnet  0
+10:5:3 [Foxlider@DarkLightTest.general] : ..galnet 0
+10:5:31 [Foxlider@DarkLightTest.general] : ..galnet 0
+10:5:32 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Ram Tah Laboratory Attacked#
+```html
+A few days ago, the research centre at Felice Dock in the Meene system was severely damaged in what has been described as 'an act of vandalism'. Authorities at the starport have confirmed that the attack left many of the facilities irreparably damaged.
+Readers will no doubt recall that Ram Tah's research project into the ruins of the Synuefe XR-H d11-102 system is based at Felice Dock.
+When asked about the delay in investigating the crime, system security forces said it was considered 'low priority', and that it was "probably the work of opportunists."
+Ram Tah released the following statement:
+"This is clearly an attempt to undermine my research into the Synuefe ruins. Since my investigations began, a number of agencies have made clear their desire to capitalise on the site for personal, political or military gain. The knowledge contained in the ruins does not belong to one individual or organisation – it belongs to everyone."
+"My research programme has relocated to Phoenix Base. Strict security protocols have been instated, and anyone approaching without invitation will be fired upon."
+Since this statement was made, the research facility at Phoenix Base has been operating in total radio silence.```
+10:5:40 [Foxlider@DarkLightTest.general] : ..galnet 0
+10:5:43 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Ram Tah Laboratory Attacked#
+```html
+A few days ago, the research centre at Felice Dock in the Meene system was severely damaged in what has been described as 'an act of vandalism'. Authorities at the starport have confirmed that the attack left many of the facilities irreparably damaged.
+Readers will no doubt recall that Ram Tah's research project into the ruins of the Synuefe XR-H d11-102 system is based at Felice Dock.
+When asked about the delay in investigating the crime, system security forces said it was considered 'low priority', and that it was "probably the work of opportunists."
+Ram Tah released the following statement:
+"This is clearly an attempt to undermine my research into the Synuefe ruins. Since my investigations began, a number of agencies have made clear their desire to capitalise on the site for personal, political or military gain. The knowledge contained in the ruins does not belong to one individual or organisation – it belongs to everyone."
+"My research programme has relocated to Phoenix Base. Strict security protocols have been instated, and anyone approaching without invitation will be fired upon."
+Since this statement was made, the research facility at Phoenix Base has been operating in total radio silence.```
+10:5:56 [Foxlider@DarkLightTest.general] : ..galnet 0
+10:5:57 [DLBot@DarkLightTest.general] : News from GalNet : #Galactic News: Ram Tah Laboratory Attacked#
+```html
+A few days ago, the research centre at Felice Dock in the Meene system was severely damaged in what has been described as 'an act of vandalism'. Authorities at the starport have confirmed that the attack left many of the facilities irreparably damaged.
+Readers will no doubt recall that Ram Tah's research project into the ruins of the Synuefe XR-H d11-102 system is based at Felice Dock.
+When asked about the delay in investigating the crime, system security forces said it was considered 'low priority', and that it was "probably the work of opportunists."
+Ram Tah released the following statement:
+"This is clearly an attempt to undermine my research into the Synuefe ruins. Since my investigations began, a number of agencies have made clear their desire to capitalise on the site for personal, political or military gain. The knowledge contained in the ruins does not belong to one individual or organisation – it belongs to everyone."
+"My research programme has relocated to Phoenix Base. Strict security protocols have been instated, and anyone approaching without invitation will be fired upon."
+Since this statement was made, the research facility at Phoenix Base has been operating in total radio silence.```
+10:6:38 [Foxlider@DarkLightTest.general] : ..galnet
+10:6:39 [DLBot@DarkLightTest.general] : News from GalNet : #Community Goal: People's Tutumu Confederacy Appeal#
+```html
+As the end of the galactic year draws near and people throughout the galaxy start preparing for their end-of-year celebrations, the People's Tutumu Confederacy has announced a special seasonal event.
+A spokesperson for the organisation released a brief statement.
+"We have placed an open order for gold, pyrophyllite, and mineral oil, and in keeping with the spirit of the season we are offering generous premiums for these items. Additionally, every pilot who brings us these goods will be automatically entered into a prize draw, giving them the opportunity to win a range of fantastic prizes."
+"The more you contribute, the better your chance of winning!"
+The campaign will run from the 1st to the 16th of December 3302. If the final target is met earlier than planned, the campaign will end immediately.```
+10:9:42 [Foxlider@DarkLightTest.general] : Help <@248021064817442816>
+10:9:43 [DLBot@DarkLightTest.general] : <@140195053241892864> Hey ! I'm DLBot ! Here are my commands : 
+    -help   : Show this text
+    -hello  : Hi !
+    -xdy    : Roll some dices ! (ex : 2d100) It will give you x answers between 0 and y
+    -galnet : Will give you random GalNet feed unless you specify an index (galnet [i])
+    -wiki   : Will give you a wikipedia definition
+    -pict   : NOT YET IMPLEMENTED
+    -video  : NOT YET IMPLEMENTED
+
+Some commands are not detailed. Good luck finding them !

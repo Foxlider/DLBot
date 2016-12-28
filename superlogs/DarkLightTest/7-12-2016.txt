@@ -1,0 +1,8 @@
+13:29:40 [Foxlider@DarkLightTest.general] : 2d20
+13:29:41 [DLBot@DarkLightTest.general] : <@140195053241892864> rolled 2d20
+ It's a 20 !
+ It's a 14 !
+13:29:58 [Foxlider@DarkLightTest.general] : ..galnet
+13:29:59 [DLBot@DarkLightTest.general] : News from GalNet : #Powerplay: Incoming Update#
+```html
+At 7.00 am tomorrow morning (GMT), the monitoring of powers' activities will go offline for a short period while the latest data is assembled. Pilots who operate for one of the powers should deliver any cargo or vouchers before this time to ensure their activities are registered.```

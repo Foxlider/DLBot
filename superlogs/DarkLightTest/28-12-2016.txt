@@ -1,0 +1,65 @@
+2:36:42 [Foxlider@DarkLightTest.general] : ..version
+2:36:42 [DLBot@DarkLightTest.general] : DLBot is verssion v0.1.5a.
+2:37:26 [Foxlider@DarkLightTest.general] : ..galnet
+2:37:27 [DLBot@DarkLightTest.general] : News from GalNet : #Community Goal: People's Tutumu Confederacy Appeal Concludes#
+```html
+The People's Tutumu Confederacy has released a statement announcing the successful conclusion of its seasonal appeal. Hundreds of pilots responded to the appeal, delivering huge quantities of goods to North Ring in the Tutumu system.
+In addition to offering generous premiums for the requested items, the People's Tutumu Confederacy also organised a special prize draw.
+Pilots who contributed to the initiative are now free to collect their rewards from North Ring in the Tutumu system.```
+2:37:47 [Foxlider@DarkLightTest.general] : ..hello
+2:37:48 [DLBot@DarkLightTest.general] : Hello CMDR <@140195053241892864> !
+2:37:48 [DLBot@DarkLightTest.general] : Hello <@140195053241892864> !
+2:38:16 [Foxlider@DarkLightTest.general] : ..galnet
+2:38:17 [DLBot@DarkLightTest.general] : News from GalNet : #Community Goal: Festive Appeal#
+```html
+Many cultures choose to mark the end of the galactic year with the giving and receiving of gifts, and this year will be no exception. In anticipation of this busy period, luxury goods supplier Santa Muerte Co-operative has placed an open order for personal gifts. The organisation's CEO, Nicolas St Clauss, released the following statement to the media:
+"This year we're asking pilots to bring goods from Frost Dock in the Njambalba system to Clauss Port in Santa Muerte. In exchange, we're offering generous financial rewards and special festive prizes for those who make contributions."
+The campaign begins on the 22nd of December 3302 and will run for two weeks. If the final target is met earlier than planned, the campaign will end immediately.```
+2:38:17 [DLBot@DarkLightTest.general] : News from GalNet : #Community Goals: Alliance to Build New Outpost#
+```html
+Alliance Prime Minister Edmund Mahon has announced plans to construct a planetary outpost in the California Nebula. In a statement, Mahon explained that the new outpost would serve as a centre for xenobiological and astronomical research. He went on to say:
+"We have placed an open order for Geological Equipment, Hazardous Environment Suits and Surface Stabilisers for use in the construction of this new outpost, and authorised 160 SOAR to reward pilots who deliver these materials to Tshang City in the Furuhjelm III-674 system."
+To ensure those contributing materials can do so safely, 160 SOAR has also placed a kill order on all wanted ships operating in the Furuhjelm III-674 system, and has promised to reward pilots who deliver bounty vouchers to Tshang City.
+The campaign begins on the 22nd of December 3302 and will run for two weeks. If the final target is met earlier than planned, the campaign will end immediately.```
+2:38:24 [Foxlider@DarkLightTest.general] : hmmm...
+2:38:34 [Foxlider@DarkLightTest.general] : ..yt
+2:38:57 [Foxlider@DarkLightTest.general] : ..quote
+2:40:50 [Foxlider@DarkLightTest.general] : ..quote
+2:42:9 [Foxlider@DarkLightTest.general] : ..quote
+2:43:1 [Foxlider@DarkLightTest.general] : ..quote
+2:43:32 [Foxlider@DarkLightTest.general] : ..quote
+2:44:8 [Foxlider@DarkLightTest.general] : ..quote <@140195053241892864> J'en ai marre putain !
+2:44:8 [DLBot@DarkLightTest.general] : Saved quote <@140195053241892864> J'en ai marre putain ! n°1
+2:46:35 [Foxlider@DarkLightTest.general] : ..quote <@140195053241892864> Là ça marche !! Ah non...
+2:46:35 [DLBot@DarkLightTest.general] : Saved quote n°2 : <@140195053241892864> Là ça marche !! Ah non
+2:46:56 [Foxlider@DarkLightTest.general] : ..quote
+2:46:56 [DLBot@DarkLightTest.general] : <@140195053241892864> J'en ai marre putain !
+2:47:26 [Foxlider@DarkLightTest.general] : ..quote 1
+2:47:26 [DLBot@DarkLightTest.general] : Reading quote...
+<@140195053241892864> J'en ai marre putain !
+2:47:33 [Foxlider@DarkLightTest.general] : ..quote 2
+2:47:34 [DLBot@DarkLightTest.general] : Reading quote...
+<@140195053241892864> Là ça marche !! Ah non
+2:47:39 [Foxlider@DarkLightTest.general] : :D
+3:0:11 [Foxlider@DarkLightTest.general] : ..version
+3:0:11 [DLBot@DarkLightTest.general] : DLBot is version v0.1.6a.
+3:0:53 [Foxlider@DarkLightTest.general] : ..yt  https://youtu.be/73TAM-9dKOo mickeycoro
+3:2:1 [Foxlider@DarkLightTest.general] : ..yt  https://youtu.be/73TAM-9dKOo mickeycoro
+3:2:1 [DLBot@DarkLightTest.general] : Something happend. I'm sure something happend. But dunno what. Sorry !
+3:3:14 [Foxlider@DarkLightTest.general] : ..yt  https://youtu.be/73TAM-9dKOo mickeycoro
+3:3:14 [DLBot@DarkLightTest.general] : Finding vidéo  Oh wait... I can't yet... Sorry !
+3:3:29 [Foxlider@DarkLightTest.general] : ..yt -s  https://youtu.be/73TAM-9dKOo mickeycoro
+3:3:30 [DLBot@DarkLightTest.general] : Saved link
+3:5:23 [Foxlider@DarkLightTest.general] : ..yt -s https://youtu.be/qatmJtIJAPw batmetal
+3:5:23 [DLBot@DarkLightTest.general] : Saved link n°2 : https://youtu.be/qatmJtIJAPw
+3:5:57 [Foxlider@DarkLightTest.general] : ..yt -s https://youtu.be/I53HDr0-Qew batmetalreturns
+3:5:58 [DLBot@DarkLightTest.general] : Saved link n°3 : https://youtu.be/I53HDr0-Qew
+3:6:35 [Foxlider@DarkLightTest.general] : Je vais virer le link du bot...
+3:6:41 [Foxlider@DarkLightTest.general] : ..yt
+3:6:41 [DLBot@DarkLightTest.general] : batmetalreturns https://youtu.be/I53HDr0-Qew
+3:6:47 [Foxlider@DarkLightTest.general] : ..yt
+3:6:47 [DLBot@DarkLightTest.general] : batmetalreturns https://youtu.be/I53HDr0-Qew
+3:7:29 [Foxlider@DarkLightTest.general] : ..yt
+3:7:30 [DLBot@DarkLightTest.general] : https://youtu.be/73TAM-9dKOo
+3:8:12 [Foxlider@DarkLightTest.general] : ..yt 2
+3:8:13 [DLBot@DarkLightTest.general] : batmetal https://youtu.be/qatmJtIJAPw
