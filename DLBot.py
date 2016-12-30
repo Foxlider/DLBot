@@ -330,9 +330,9 @@ def on_message(message):
             if args[1] in functions:
                 msg = 'Usage : \n' + helpdict[args[1]]
             elif args[1]=='all':
-                msg = 'All the definitions : '
+                msg = 'All the definitions : \n'
                 for defs in functions:
-                    msg += '\n```\n' + helpdict[defs] + '```\n'
+                    msg += '```\n' + helpdict[defs] + '```\n'
             else:
                 msg = "WTF is this function ?\n"+str(functions)+" that's all I have !"
         except IndexError:
