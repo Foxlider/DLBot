@@ -325,7 +325,7 @@ def on_message(message):
     if message.content.startswith(base+'help') or ("elp" in message.content.lower() and message.mentions[0].id==client.user.id):
         msg = "{0.author.mention}".format(message) + " Hey ! I'm " + client.user.name + " ! " + helptext
         
-        args = message.split(" ")
+        args = message.content.split(" ")
         try:
             if args[1] in functions:
                 msg = helpdict[args[1]]
