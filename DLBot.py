@@ -328,11 +328,11 @@ def on_message(message):
         args = message.content.split(" ")
         try:
             if args[1] in functions:
-                msg = helpdict[args[1]]
+                msg = 'Usage : \n' + helpdict[args[1]]
             elif args[1]=='all':
-                msg = 'All the definitions : \n-------------------'
+                msg = 'All the definitions : \n-------------------\n'
                 for defs in functions:
-                    msg += helpdict[defs]+'\n-------------------'
+                    msg += helpdict[defs]+'\n-------------------\n'
             else:
                 msg = "WTF is this function ?\n"+str(functions)+" that's all I have !"
         except IndexError:
