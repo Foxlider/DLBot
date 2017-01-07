@@ -322,7 +322,7 @@ def on_message(message):
         logMessage(message)
     
     ## Help Function
-    if message.content.startswith(base+'help') or ("elp" in message.content.lower() and message.mentions[0].id==client.user.id):
+    if message.content.startswith(base+'help') or (message.content.lower.startswith("help") and message.mentions[0].id==client.user.id):
         msg = "{0.author.mention}".format(message) + " Hey ! I'm " + client.user.name + " ! " + helptext
         
         args = message.content.split(" ")
