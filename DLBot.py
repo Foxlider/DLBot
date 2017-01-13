@@ -6,7 +6,7 @@
 
 # Basic informations. To change if you want to setup your own Bot.
 __program__ = "DLBot"
-__version__ = "0.1.6a"
+__version__ = "0.1.7a"
 
 ## Libaries import
 
