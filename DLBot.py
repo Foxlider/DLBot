@@ -271,6 +271,7 @@ def on_message(message):
     logsFile=open("./logs/" + str(today.day) + "-" + str(today.month) + "-" + str(today.year) + ".txt","a")
     if (setupArray[5]=="1"):
         sLogs(message)
+    lowerContent = message.content.lower
     
     ## Normal functions
     #TODO: quizz, pic, quote
@@ -322,7 +323,7 @@ def on_message(message):
         logMessage(message)
     
     ## Help Function
-    if message.content.startswith(base+'help') or (message.content.lower.startswith("help") and message.mentions[0].id==client.user.id):
+    if message.content.startswith(base+'help') or (lowerContent.startswith("help") and message.mentions[0].id==client.user.id):
         msg = "{0.author.mention}".format(message) + " Hey ! I'm " + client.user.name + " ! " + helptext
         
         args = message.content.split(" ")
