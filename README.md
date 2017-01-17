@@ -10,7 +10,7 @@ You can add it to your own server (link incoming)
 These are the common functions : 
 * help   : to get the list of useful functions
 * pict   : to get an image (not yet implemented)
-* video  : to get a video url from youtube (not yet implemented)
+* yt     : to get a video url from youtube
 * wiki   : to get a definition from wikipedia (hi @nei)
 * xdy    : to roll roll x dices from 0 to y (ex : 2d20)
 
@@ -25,10 +25,19 @@ If you find any bug, please report it !
 4. Wow ! It's running !
 5. Invite your bot with the invitation link
   https://discordapp.com/oauth2/authorize?&client_id=client_id&scope=bot where client_id (optionnal) is your bot's ID
+  For exemple if you want my own bot : https://discordapp.com/oauth2/authorize?&client_id=248021064817442816&scope=bot
 
 You can set up the command prefixe (called "base" here) default : ".."
 
 Logs are located in ./logs/
+
+###TO DO
+
+ 1. Implements a better architecture
+ 2. More efficient commands
+ 3. Use the Youtube API and Discord Voice to play music and videos
+ 4. Stuff...
+
 
 This bot have been created using pyzo Editor and miniconda 3.5.2
 With the help of @neistuff (nei)
