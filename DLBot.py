@@ -360,14 +360,14 @@ def on_message(message):
         logMessage(message)
     
     ## Roll 
-    if list(message.content)[0].isdigit() and list(message.content)[1] == "d":
-        txt = message.content
-        var = txt.split("d")
-        msg = "{0.author.mention} rolled ".format(message)+message.content 
-        for i in range(int(var[0])):
-            msg += "\n It's a "+str(random.randrange(int(var[1]))+1)+" !"
-        yield from client.send_message(message.channel, msg)
-        logMessage(message)
+    #if list(message.content)[0].isdigit() and list(message.content)[1] == "d":
+    #    txt = message.content
+    #    var = txt.split("d")
+    #    msg = "{0.author.mention} rolled ".format(message)+message.content 
+    #    for i in range(int(var[0])):
+    #        msg += "\n It's a "+str(random.randrange(int(var[1]))+1)+" !"
+    #    yield from client.send_message(message.channel, msg)
+    #    logMessage(message)
      
     ## Quote Function
     if message.content.startswith(base+'quote'):
