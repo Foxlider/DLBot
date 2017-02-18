@@ -12,7 +12,7 @@ setupdict = OrderedDict(videos='[OFF]'
                 
                 
                 
-d = OrderedDict(mot='on',jean='off',yolo='youpi')
+d = OrderedDict(This='oh',is_a='my',test='god')
 for key in d:
     print(key)
 
