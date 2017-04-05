@@ -272,7 +272,7 @@ def on_message(message):
     if (setupArray[5]=="1"):
         try:
             sLogs(message)
-        except
+        except:
             pass
     lowerContent = message.content.lower
     
