@@ -63,7 +63,7 @@ Here are my commands :
 Some commands are not detailed. Good luck finding them !
 """
 #List of my functions
-functions=['help', 'hello', 'xdy', 'galnet', 'wiki', 'pict', 'yt', 'quote']
+functions=['help', 'hello', 'roll', 'galnet', 'wiki', 'pict', 'yt', 'quote']
 
 #WTF IS THAT ? That's the documentation dictionary ! 
 helpdict = dict(help=base+"""help [command|all] : 
@@ -73,7 +73,7 @@ Why are you wanting help on help anyway ?
                 , hello=base+"""hello
 Hello @DLBot : 
 It will say Hello. That's all !"""
-                , xdy="""{x}d{y} : 
+                , roll=base+"""roll {x}d{y} : 
 Used in roleplay games. Like rolling 1 dice containing 20 faces will be 1d20
     x : number between 1 and 10
     y : number greater than 1"""
@@ -360,14 +360,15 @@ def on_message(message):
         logMessage(message)
     
     ## Roll 
-    #if list(message.content)[0].isdigit() and list(message.content)[1] == "d":
-    #    txt = message.content
-    #    var = txt.split("d")
-    #    msg = "{0.author.mention} rolled ".format(message)+message.content 
-    #    for i in range(int(var[0])):
-    #        msg += "\n It's a "+str(random.randrange(int(var[1]))+1)+" !"
-    #    yield from client.send_message(message.channel, msg)
-    #    logMessage(message)
+    if message.content.startswith(base+'roll '):
+        raw = message.content.split(base+'roll ')[1]
+        if list(raw)[0].isdigit() and list(raw)[1] == "d":
+            var = raw.split("d")
+            msg = "{0.author.mention} rolled ".format(message)+raw
+            for i in range(int(var[0])):
+                msg += "\n It's a "+str(random.randrange(int(var[1]))+1)+" !"
+            yield from client.send_message(message.channel, msg)
+            logMessage(message)
      
     ## Quote Function
     if message.content.startswith(base+'quote'):
