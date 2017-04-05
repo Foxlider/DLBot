@@ -270,7 +270,7 @@ def on_message(message):
     today = datetime.datetime.now()
     logsFile=open("./logs/" + str(today.day) + "-" + str(today.month) + "-" + str(today.year) + ".txt","a")
     if (setupArray[5]=="1"):
-        try
+        try:
             sLogs(message)
         except
             pass
