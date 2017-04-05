@@ -373,7 +373,7 @@ def on_message(message):
     if message.content.startswith(base+'pvroll '):
         raw = message.content.split(base+'pvroll ')[1]
         mg= message
-        await client.delete_message(message)
+        yield from client.delete_message(message)
         if list(raw)[0].isdigit() and list(raw)[1] == "d":
             var = raw.split("d")
             msg = "{0.author.mention} rolled ".format(mg)+raw
