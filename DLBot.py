@@ -371,7 +371,7 @@ def on_message(message):
             logMessage(message)
     ## Private Roll        
     if message.content.startswith(base+'pvroll '):
-        raw = message.content.split(base+'roll ')[1]
+        raw = message.content.split(base+'pvroll ')[1]
         mg= message
         delete_message(message)
         if list(raw)[0].isdigit() and list(raw)[1] == "d":
