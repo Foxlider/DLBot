@@ -6,7 +6,7 @@
 
 # Basic informations. To change if you want to setup your own Bot.
 __program__ = "DLBot"
-__version__ = "0.1.7a"
+__version__ = "0.1.8a"
 
 ## Libaries import
 
@@ -373,10 +373,10 @@ def on_message(message):
     if message.content.startswith(base+'pvroll '):
         raw = message.content.split(base+'pvroll ')[1]
         mg= message
-        client.delete_message(message)
+        await client.delete_message(message)
         if list(raw)[0].isdigit() and list(raw)[1] == "d":
             var = raw.split("d")
-            msg = "{0.author.mention} rolled ".format(message)+raw
+            msg = "{0.author.mention} rolled ".format(mg)+raw
             for i in range(int(var[0])):
                 msg += "\n It's a "+str(random.randrange(int(var[1]))+1)+" !"
             yield from client.send_message(mg.author, msg)
