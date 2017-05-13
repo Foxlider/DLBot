@@ -1,31 +1,4 @@
 
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @Foxlider
-
-1
-0
-
-    0
-
-Foxlider/DLBot-Discordbot
-Code
-Issues 2
-Pull requests 0
-Projects 0
-Wiki
-Pulse
-Graphs
-Settings
-DLBot-Discordbot/DLBot.py
-71de39e on 5 Apr
-@Foxlider Foxlider Bug Corrections
-476 lines (413 sloc) 16.3 KB
 ## Notes
 
 
@@ -537,8 +510,3 @@ try:
 except:
     print("DLBot not started. There might be a connection error.\nShutting down...")
     quit()
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
-
