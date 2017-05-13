@@ -396,7 +396,7 @@ def on_message(message):
             for i in range(int(var[0])):
                 dice = int(var[1])
                 res = random.randrange(int(var[1]))+1
-                msg += "\n It's a "+str(random.randrange(int(var[1]))+1)+" !"
+                msg += "\n It's a "+str(res)+" !"
                 try:
                     newDice(jdrJets,mg.author.name,res, dice)
                 except:
