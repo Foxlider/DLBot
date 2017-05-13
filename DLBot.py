@@ -7,7 +7,7 @@
 
 # Basic informations. To change if you want to setup your own Bot.
 __program__ = "DLBot"
-__version__ = "0.2.0a"
+__version__ = "0.2.0b"
 
 ## Libaries import
 
@@ -414,7 +414,9 @@ def on_message(message):
                 msg+=","+str(k)
             msg+="\n"
         msg += '```\n FIN ! '
+        logMessage(message)
         yield from client.send_message(message.author, msg)
+        yield from client.send_message(message.channel, "```FIN DU JDR```")
 
     ## Private Roll        
     if message.content.startswith(base+'pvroll '):
