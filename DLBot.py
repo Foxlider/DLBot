@@ -224,7 +224,7 @@ def fileSize(filename):
     file.close()
     return num
 
-def newDice(player,player,jet,sur):
+def newDice(players,player,jet,sur):
     try:
         players[player].append(jet*(sur/100.0))
     except KeyError:
