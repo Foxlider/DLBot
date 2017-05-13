@@ -38,6 +38,14 @@ Logs are located in ./logs/
  3. Use the Youtube API and Discord Voice to play music and videos
  4. Stuff...
 
+## Changelog
+### [ Version 0.2.0 ]
+####  [ 0.2.0b ]
+- Now registering roleplay stats with the new commands jdrstart and jdrstop
+- Sending roleplay stats by priate message to paste in csv file
+- Stuff...
+
+
 
 This bot have been created using pyzo Editor and miniconda 3.5.2
 With the help of @neistuff (nei)
