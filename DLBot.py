@@ -226,9 +226,9 @@ def fileSize(filename):
 
 def newDice(players,player,jet,sur):
     try:
-        players[player].append((jet*100.0)/sur)
+        players[player].append(jet/sur*100)
     except KeyError:
-        players[player] = [(jet*100.0)/sur]
+        players[player] = [jet/sur*100]
     
 ## Starting the bot!
 if isSetUp(datadir+"/setup.txt")==False:
