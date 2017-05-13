@@ -287,7 +287,7 @@ def on_message(message):
         except:
             pass
     lowerContent = message.content.lower
-    
+    jdrJets = dict()
     ## Normal functions
     #TODO: quizz, pic, quote
     
@@ -399,7 +399,7 @@ def on_message(message):
                 try:
                     newDice(jdrJets,mg.author.name,res, dice)
                 except:
-                    logMessage("No JdrJets set up")
+                    print("No jdrJets set up")
             yield from client.send_message(mg.channel, msg)
             logMessage(mg)
 
