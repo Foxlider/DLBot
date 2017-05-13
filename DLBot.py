@@ -226,9 +226,9 @@ def fileSize(filename):
 
 def newDice(players,player,jet,sur):
     try:
-        players[player].append(jet*(sur/100.0))
+        players[player].append((jet*100.0)/sur)
     except KeyError:
-        players[player] = [jet*(sur/100.0)]
+        players[player] = [(jet*100.0)/sur]
     
 ## Starting the bot!
 if isSetUp(datadir+"/setup.txt")==False:
@@ -272,6 +272,8 @@ def Sendmessage(msg,message):
     logMessage(message)
     
 
+jdrJets = dict() #For Roleplays
+
 
 ## Starting the coroutines
 @client.event
@@ -287,7 +289,6 @@ def on_message(message):
         except:
             pass
     lowerContent = message.content.lower
-    jdrJets = dict()
     ## Normal functions
     #TODO: quizz, pic, quote
     
