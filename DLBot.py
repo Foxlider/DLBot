@@ -7,7 +7,7 @@
 
 # Basic informations. To change if you want to setup your own Bot.
 __program__ = "DLBot"
-__version__ = "0.1.9a"
+__version__ = "0.2.0a"
 
 ## Libaries import
 
@@ -397,12 +397,13 @@ def on_message(message):
                 res = random.randrange(int(var[1]))+1
                 msg += "\n It's a "+str(random.randrange(int(var[1]))+1)+" !"
                 try:
-                    newDice(jdrJets,mg.author,res, dice)
+                    newDice(jdrJets,mg.author.name,res, dice)
                 except:
                     logMessage("No JdrJets set up")
             yield from client.send_message(mg.channel, msg)
             logMessage(mg)
 
+    ##JdrStop
     if message.content.startswith(base+'jdrstop'):
         global jdrJets
         msg = "Resultats : \n```\n"
