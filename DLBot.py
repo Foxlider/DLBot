@@ -1,3 +1,31 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @Foxlider
+
+1
+0
+
+    0
+
+Foxlider/DLBot-Discordbot
+Code
+Issues 2
+Pull requests 0
+Projects 0
+Wiki
+Pulse
+Graphs
+Settings
+DLBot-Discordbot/DLBot.py
+71de39e on 5 Apr
+@Foxlider Foxlider Bug Corrections
+476 lines (413 sloc) 16.3 KB
 ## Notes
 
 
@@ -6,7 +34,7 @@
 
 # Basic informations. To change if you want to setup your own Bot.
 __program__ = "DLBot"
-__version__ = "0.1.8a"
+__version__ = "0.1.9a"
 
 ## Libaries import
 
@@ -59,11 +87,10 @@ Here are my commands :
     -pict   : NOT YET IMPLEMENTED
     -yt     : Put some videos in your channel !
     -quote  : When funny things are said, you must save them !
-
 Some commands are not detailed. Good luck finding them !
 """
 #List of my functions
-functions=['help', 'hello', 'roll', 'galnet', 'wiki', 'pict', 'yt', 'quote']
+functions=['help', 'hello', 'roll', 'jdrstart', 'jdrstop' 'galnet', 'wiki', 'pict', 'yt', 'quote']
 
 #WTF IS THAT ? That's the documentation dictionary ! 
 helpdict = dict(help=base+"""help [command|all] : 
@@ -77,6 +104,12 @@ It will say Hello. That's all !"""
 Used in roleplay games. Like rolling 1 dice containing 20 faces will be 1d20
     x : number between 1 and 10
     y : number greater than 1"""
+                , jdrstart=base+"""jdrstart : 
+Use this to start a new JDR
+                """
+                , jdrstop=base+"""jdrstop : 
+Use this to stop the JDR and receive the data
+                """
                 , galnet=base+"""galnet [index] : 
 Used to get RSS feed from GalNet forums. Use the index to see a specific news or let it be random
     index : number of the news wanted"""
@@ -217,6 +250,12 @@ def fileSize(filename):
     num = len(file.readlines())
     file.close()
     return num
+
+def newDice(player,player,jet,sur):
+    try:
+        players[player].append(jet*(sur/100.0))
+    except KeyError:
+        players[player] = [jet*(sur/100.0)]
     
 ## Starting the bot!
 if isSetUp(datadir+"/setup.txt")==False:
@@ -362,10 +401,17 @@ def on_message(message):
         yield from client.send_message(message.channel, msg)
         logMessage(message)
     
+    ## JdrStart
+    if message.content.startswith(base+'jdrstart'):
+        jdrJets = dict()
+        msg = '```A new JDR started !```'
+        yield from client.send_message(message.channel, msg)
+
     ## Roll 
     if message.content.startswith(base+'roll '):
+        global jdrJets
         raw = message.content.split(base+'roll ')[1]
-        mg= message
+        mg = message
         try:
             yield from client.delete_message(message)
         except:
@@ -374,9 +420,27 @@ def on_message(message):
             var = raw.split("d")
             msg = "{0.author.mention} rolled ".format(mg)+raw
             for i in range(int(var[0])):
+                dice = int(var[1])
+                res = random.randrange(int(var[1]))+1
                 msg += "\n It's a "+str(random.randrange(int(var[1]))+1)+" !"
+                try:
+                    newDice(jdrJets,mg.author,res, dice)
+                except:
+                    logMessage("No JdrJets set up")
             yield from client.send_message(mg.channel, msg)
             logMessage(mg)
+
+    if message.content.startswith(base+'jdrstop'):
+        global jdrJets
+        msg = "Resultats : \n```\n"
+        for key in jdrJets:
+            msg+=key
+            for k in jdrJets[key]:
+                msg+=","+str(k)
+            msg+="\n"
+        msg += '```\n FIN ! '
+        yield from client.send_message(message.author, msg)
+
     ## Private Roll        
     if message.content.startswith(base+'pvroll '):
         raw = message.content.split(base+'pvroll ')[1]
@@ -473,3 +537,8 @@ try:
 except:
     print("DLBot not started. There might be a connection error.\nShutting down...")
     quit()
+
+    Contact GitHub API Training Shop Blog About 
+
+    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
+
