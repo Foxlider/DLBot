@@ -6,7 +6,7 @@ This is my Discord bot created with the help of neistuff using python3 (minicond
 It have been built for the DL Server, DL testServer. 
 You can add it to your own server (link incoming)
 
-###Basic Functions
+## Basic Functions
 These are the common functions : 
 * help   : to get the list of useful functions
 * pict   : to get an image (not yet implemented)
@@ -17,7 +17,7 @@ These are the common functions :
 Some functions are still indev. Some will be added. Stay tuned !
 If you find any bug, please report it !
 
-###Installation
+## Installation
 1. Run the DLBot.py
 2. Setup the bot's functions
 3. Put your token in the console 
@@ -31,7 +31,7 @@ You can set up the command prefixe (called "base" here) default : ".."
 
 Logs are located in ./logs/
 
-###TO DO
+## TO DO
 
  1. Implements a better architecture
  2. More efficient commands
