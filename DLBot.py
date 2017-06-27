@@ -305,6 +305,18 @@ def on_message(message):
         yield from client.send_message(message.channel, msg)
         logMessage(message)
     
+    ## Reboot Function
+    if message.content.startswith(base+'reboot') and message.channel == client.user.id:
+        msg='Rebooting BOT now...'
+        yield from client.send_message(message.author, msg)
+        os.system("./../DLBot.sh")
+        
+    ## Shutdown Function
+    if message.content.startswith(base+'shutdown') and message.channel == client.user.id:
+        msg='Shutting down BOT now...'
+        yield from client.send_message(message.author, msg)
+        os.system('pkill DLBot.py')
+    
 
     # Still indev
     if message.content.startswith('!pic'):
@@ -504,6 +516,7 @@ def on_message(message):
                 msg = ytRead(random.randrange(fileSize(datadir+'/yt.txt')))
         yield from client.send_message(message.channel, msg)
         logMessage(message)
+
         
         
     
