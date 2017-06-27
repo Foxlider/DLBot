@@ -42,7 +42,7 @@ import random
 import feedparser
 import re
 
-import setup
+import startup
 
 
 ##Variables setup
