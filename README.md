@@ -45,6 +45,12 @@ Logs are located in ./logs/
 - Sending roleplay stats by priate message to paste in csv file
 - Stuff...
 
+### [ Version 0.2.1 ]
+####  [ 0.2.1a ]
+- Added Reboot and Shutdown function
+- Added setup.py
+- Renamed previous setup.py to startup.py
+- Stuff...
 
 
 This bot have been created using pyzo Editor and miniconda 3.5.2
