@@ -63,7 +63,7 @@ Here are my commands :
 Some commands are not detailed. Good luck finding them !
 """
 #List of my functions
-functions=['help', 'hello', 'roll', 'jdrstart', 'jdrstop' 'galnet', 'wiki', 'pict', 'yt', 'quote']
+functions=['help', 'hello', 'roll', 'jdrstart', 'jdrstop', 'galnet', 'wiki', 'pict', 'yt', 'quote']
 
 #WTF IS THAT ? That's the documentation dictionary ! 
 helpdict = dict(help=base+"""help [command|all] : 
